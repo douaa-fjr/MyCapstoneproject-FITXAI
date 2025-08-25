@@ -1,0 +1,63 @@
+/* General Styling */
+body {
+    background-color: #f0f8ff;
+    color: #0b3d91;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center the logo */
+#logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+}
+
+/* Centered layout */
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #0b3d91;
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"] {
+    background-color: #e8f0fe;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input::placeholder {
+    color: #333;
+}
+
+/* Buttons */
+button, .stButton>button {
+    background-color: #28a745 !important;
+    color: white !important;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover, .stButton>button:hover {
+    background-color: #218838 !important;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #ffffff !important;
+}
